@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>SRVPublicSchool</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,900|Ubuntu&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/43124feaf5.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="top-container">
+        <div class="col-md-6">
+            <img class="school-logo" src="images/logo.png" alt="school-logo">
+          </div>
+        </div>
+
+    <div class="navigation bar-container">
+        
+            <!-- Nav Bar -->
+        
+            <nav class="navigation-bar navbar navbar-expand-lg">
+              
+               <button class="navbar-toggler btn-group dropend" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon navbar-dark"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+              <ul class="navigation-group navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item nav-item dropdown">
+                      <a class="nav-link" href=""  id="navbarDropdownMenuLink" data-toggle="collapse" aria-expanded="false">Philosophy</a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="ourVision.html">Vision</a></li>
+                        <li><a class="dropdown-item" href="president.html">President's message</a></li>
+                        <li><a class="dropdown-item" href="principalMessage.html">Principal's message</a></li>
+
+                      </ul>
+                  </li>
+                  <li class="nav-item nav-item dropdown">
+                    <a class="nav-link" href=""  id="navbarDropdownMenuLink" data-toggle="collapse" aria-expanded="false">Admissions</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="stepbystepguide.html">Step by Step guide</a></li>
+                      <li><a class="dropdown-item" href="feedetails.html">Fee Structure</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="nav-item nav-item dropdown">
+                    <a class="nav-link" href=""  id="navbarDropdownMenuLink" data-toggle="collapse" aria-expanded="false">Academics</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="syllabus.html">Syllabus</a></li>
+                      <li><a class="dropdown-item" href="bookList.html">Book list</a></li>
+                      <li><a class="dropdown-item" href="results.html">Results</a></li>
+                      
+                      </ul>
+                  </li>
+
+                  <li class="nav-item nav-item dropdown">
+                    <a class="nav-link" href=""  id="navbarDropdownMenuLink" data-toggle="collapse" aria-expanded="false">Public Disclosure</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">PSEB Affilation</a></li>
+                      <li><a class="dropdown-item" href="#">Building safety certificate </a></li>
+                      <li><a class="dropdown-item" href="#">Fire safety certificate</a></li>
+                      <li><a class="dropdown-item" href="#">Society registration certificate</a></li>
+                      
+                      </ul>
+                  </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="announcements.html">Announcements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+              </ul>
+           </div>
+          </nav>
+        
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="contact-header container-fluid mb-5">
+        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+            <h3 class="display-3 font-weight-bold">Contact Us</h3>
+            
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="text-center pb-2">
+                <p class="section-title px-5"><span class="px-2">Get In Touch</span></p>
+                <h1 class="mb-4">Contact Us For Any Query</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-7 mb-5">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" rows="6" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn-sendMessage btn-primary py-2 px-4" type="submit" id="sendMessageButton">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5 mb-5">
+                    <p>SRV Public High School, Nangal Isher, Hoshiarpur.</p>
+                    <div class="d-flex">
+                        <i class="fa fa-map-marker-alt d-inline-flex align-items-center justify-content-center text-secondary rounded-circle icons" style="width: 45px; height: 45px;"></i>
+                        <div class="pl-3">
+                            <h5>Address</h5>
+                            <p>Vill. Nangal Isher, PO Bariana, Dist. Hoshiarpur, Punjab, India. 144208</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa fa-envelope d-inline-flex align-items-center justify-content-center text-secondary rounded-circle icons" style="width: 45px; height: 45px;"></i>
+                        <div class="pl-3">
+                            <h5>Email</h5>
+                            <p>srvpublicschool@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa fa-phone-alt d-inline-flex align-items-center justify-content-center text-secondary rounded-circle icons" style="width: 45px; height: 45px;"></i>
+                        <div class="pl-3">
+                            <h5>Phone</h5>
+                            <p>+91 9465394024</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <i class="far fa-clock d-inline-flex align-items-center justify-content-center text-secondary rounded-circle icons" style="width: 45px; height: 45px;"></i>
+                        <div class="pl-3">
+                            <h5>School Hours</h5>
+                            
+                            <p class="m-0">09:00 AM - 03:00 PM </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, .2);;" id="footer-section">
+        
+                    
+                    <a class="btn-footer  text-center mr-2"
+                        style="width: 38px; height: 38px;" href="#"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+                    <a class="btn-footer   text-center mr-2"
+                        style="width: 38px; height: 38px;" href="#"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                    <a class="btn-footer  rtext-center mr-2"
+                        style="width: 38px; height: 38px;" href="#"><i class="fa-brands fa-square-twitter fa-2x"></i></a>
+    
+            
+            
+           
+           
+        
+            <div class="footer-copyright">
+            <p class="m-0 text-center text-white">
+                &copy; <a class="text-primary font-weight-bold" href="#">SRV Public High School</a>. All Rights Reserved. Designed
+                by
+                <a class="text-primary font-weight-bold" href="https://htmlcodex.com">NITISH PRASHAR</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+   
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
